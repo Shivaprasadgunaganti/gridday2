@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gd{
+            height: 30vh;
+            width: 50vw;
+            background-color: burlywood;
+            display: grid;
+            grid-template-columns: auto  auto auto;
+            grid-gap:10px;
+        }
+        .cd{
+            display: grid;
+             justify-content: center;
+             align-content: center;
+        }
+        .cd1{
+            background-color: rgb(155, 195, 199);
+             grid-column-start: 1;
+             grid-column-end: 5;
+        }
+        .cd2{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: rgb(29, 206, 29);
+        
+        }
+        .cd3{
+    
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: rgba(43, 178, 36, 0.678);
+        }
+        .cd4{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            background-color: rgb(164, 164, 215);
+        }
+        .cd5{
+            grid-column-start:2;
+            grid-column-end: 5;
+            background-color: rgb(120, 120, 169);
+        }
+        .cd6{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            background-color: lightgreen;
+        }
+    </style>
+    <style>
+        
+
+        .gd1{
+            background-color: rgb(25, 25, 26);
+            width: 500px;
+            height: 200px;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100x 100px 100px;
+            display: grid;
+            border: 5px solid;
+            gap: 5px
+        }
+
+        .vd{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: red;
+        }
+        .vd1{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: aqua;
+        }
+        .vd2{
+            grid-column-start: 4;
+            grid-column-end: 6;
+            background-color: rgba(245, 108, 11, 0.925) ;
+        }
+        .vd3{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 2;
+            background-color: rgb(240, 68, 6);
+        }
+        .vd4{
+            grid-row-start: 2;
+            grid-row-end: 5;
+            background-color: red;
+        }
+        .vd5{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 5;
+            background-color: white;
+        }
+        .vd6{
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: white;
+
+        }
+        .vd7{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: red;
+        }
+        .vd8{
+            background-color: aqua;
+        }
+        
+
+    </style>
+</head>
+<body>
+      <div class="gd1">
+        <div class="vd">one</div>
+        <div class="vd1">two</div>
+        <div class="vd2">three</div>
+        <div class="vd3">four</div>
+        <div class="vd4">five</div>
+        <div class="vd5">six</div>
+        <div class="vd6">seven</div>
+        <div class="vd7">eight</div>
+        <div class="vd8">nine</div>
+      </div>
+
+
+    <div class="gd">
+        <div class="cd cd1">Header</div>
+        <div class="cd cd2">Navigation</div>
+        <div class="cd cd3">Aside</div>
+        <div class="cd cd4">Content</div>
+        <div class="cd cd5">Section</div>
+        <div class="cd cd6">Footer</div>
+    </div>
+</body>
+</html>
